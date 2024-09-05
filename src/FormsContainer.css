@@ -1,0 +1,16 @@
+.forms-container {
+    padding: 20px;
+  }
+  
+  .form-selector {
+    margin-bottom: 20px;
+  }
+  
+  .form-selector label {
+    margin-right: 10px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  

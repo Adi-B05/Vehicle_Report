@@ -1,0 +1,73 @@
+/* General styling for the form */
+.power-tools-form {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #f37e00;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f37e00;
+    padding-bottom: 10px;
+  }
+  
+  /* Grid layout for two columns */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .full-width {
+    grid-column: span 2;
+  }
+  
+  /* Form field styling */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Upload button styling */
+  button[type="submit"] {
+    background-color: #f37e00;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e36b00;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .full-width {
+      grid-column: span 1;
+    }
+  }
+  
